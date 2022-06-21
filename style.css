@@ -71,11 +71,11 @@ input{
     margin: 15px;
         
 }
-/* input[data-error]{
+input[data-error]{
     border-color:hsl(0, 100%, 74%);
     color: hsl(0, 100%, 74%);
     background-color: hsl(95, 95%, 98%);
-} */
+}
 
 input[data-error]::after{
     border-color: hsl(0, 100%, 74%);
@@ -108,12 +108,12 @@ input ~ p{
 @media screen and (max-width:1440px){
 
     .big-container{
-        width:fit-content;
+        width: 100%;
     }
     
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
 
     .big-container {
         width: 100%;
